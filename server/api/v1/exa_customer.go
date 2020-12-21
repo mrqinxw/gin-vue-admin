@@ -45,7 +45,7 @@ func CreateExaCustomer(c *gin.Context) {
 
 // @Tags SysApi
 // @Summary 删除客户
-// @Security ApiKeyAuth
+// @Security ApiKeyAuthaa
 // @accept application/json
 // @Produce application/json
 // @Param data body model.ExaCustomer true "删除客户"
