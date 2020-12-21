@@ -66,7 +66,7 @@ func DeleteExaCustomer(c *gin.Context) {
 	if err != nil {
 		response.FailWithMessage(fmt.Sprintf("删除失败：%v", err), c)
 	} else {
-		response.OkWithMessage("删除成功", c)
+		response.OkWithMessage("删除成功qq", c)
 	}
 }
 
